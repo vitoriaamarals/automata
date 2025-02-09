@@ -1,4 +1,8 @@
-## EXEMPLOS DE TESTE
+# TRABALHO PRÁTICO DE TEORIA DA COMPUTAÇÃO :memo:
+
+## :computer: COMO RODAR
+
+## :books: EXEMPLOS DE TESTE EM JSON
 
 DFA
 ```json
