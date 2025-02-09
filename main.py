@@ -2,9 +2,9 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import Set, Tuple, Dict, List
 
-from automata.tm.dtm import DTM  # Importando máquina de turing determinística
-from automata.pda.dpda import DPDA  # Importando autômata de pilha determinística
-from automata.fa.dfa import DFA  # Importando autômata finito determinístico
+from automata.tm.dtm import DTM  #MT deterministica
+from automata.pda.dpda import DPDA  #Automato pilha
+from automata.fa.dfa import DFA  # Automato finito deterministico
 
 class FiniteAutomataDeterministic(BaseModel):
     states: Set[str]
