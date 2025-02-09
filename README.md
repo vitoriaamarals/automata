@@ -1,6 +1,22 @@
 # TRABALHO PRÁTICO DE TEORIA DA COMPUTAÇÃO 
 
 ## :hammer_and_wrench: COMO RODAR
+1. Clone o repositório
+   ```
+   git clone https://github.com/vitoriaamarals/automata
+   ```
+2. Crie o ambiente virtual e instale as dependências
+   ```
+   python -m venv venv
+   venv\Scripts\activate
+   pip install -r fastapi uvicorn automata-lib
+   ```
+3. Execute:
+   ```
+   uvicorn main:app --reload
+   ```
+
+A API é executada em localhost:8000. Em localhost:8000/docs, é possível ver os endpoints e testá-los usando os exemplos abaixo.
 
 ## :computer: EXEMPLOS DE TESTE EM JSON
 
