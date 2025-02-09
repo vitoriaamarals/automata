@@ -1,8 +1,8 @@
-# TRABALHO PRÁTICO DE TEORIA DA COMPUTAÇÃO :memo:
+# TRABALHO PRÁTICO DE TEORIA DA COMPUTAÇÃO 
 
-## :computer: COMO RODAR
+## :hammer_and_wrench: COMO RODAR
 
-## :books: EXEMPLOS DE TESTE EM JSON
+## :computer: EXEMPLOS DE TESTE EM JSON
 
 DFA
 ```json
