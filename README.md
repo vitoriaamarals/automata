@@ -1,4 +1,7 @@
+## EXEMPLOS DE TESTE
+
 DFA
+```
 {
   "states": ["q0", "q1", "q2"],
   "input_symbols": ["0", "1"],
@@ -11,8 +14,10 @@ DFA
   "final_states": ["q1"],
   "word": "000111"
 }
+```
 
-MT (palavras que começam com 0 e seguidas pela mesma quantidade de 1's)
+MT 
+```
 {
   "states": ["q0", "q1", "q2", "q3", "q4"],
   "input_symbols": ["0", "1"],
@@ -42,9 +47,10 @@ MT (palavras que começam com 0 e seguidas pela mesma quantidade de 1's)
   "final_states": ["q4"],
   "word": "0011"
 }
+```
 
 PDA
-
+```
 {
   "states": ["q0", "q1", "q2", "q3"],
   "input_symbols": ["a", "b"],
@@ -68,6 +74,6 @@ PDA
   "acceptance_mode": "final_state",
   "word": "aabb"
 }
-
+```
 
 
