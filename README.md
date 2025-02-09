@@ -1,7 +1,7 @@
 ## EXEMPLOS DE TESTE
 
 DFA
-```
+```json
 {
   "states": ["q0", "q1", "q2"],
   "input_symbols": ["0", "1"],
@@ -17,7 +17,7 @@ DFA
 ```
 
 MT 
-```
+```json
 {
   "states": ["q0", "q1", "q2", "q3", "q4"],
   "input_symbols": ["0", "1"],
@@ -50,7 +50,7 @@ MT
 ```
 
 PDA
-```
+```json
 {
   "states": ["q0", "q1", "q2", "q3"],
   "input_symbols": ["a", "b"],
