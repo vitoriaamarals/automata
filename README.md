@@ -16,8 +16,7 @@
    uvicorn main:app --reload
    ```
 
-<p>A API é executada em ```localhost:8000```. </p>
-<p>Em ```localhost:8000/docs```, é possível ver os endpoints e testá-los usando os exemplos abaixo.</p>
+A API é executada em ```localhost:8000```. Em ```localhost:8000/docs```, é possível ver os endpoints e testá-los usando os exemplos abaixo.
 
 ## :computer: EXEMPLOS DE TESTE EM JSON
 
