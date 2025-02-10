@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from typing import Set, Tuple, Dict, List
+from typing import Set, Tuple, Dict, List, Union
 
 from automata.tm.dtm import DTM  #MT deterministica
 from automata.pda.dpda import DPDA  #Automato pilha
@@ -29,7 +29,7 @@ class PushdownAutomata(BaseModel):
     states: Set[str]
     input_symbols: Set[str]
     stack_symbols: Set[str]
-    transitions: Dict[str, Dict[str, Tuple[str, str, str]]]
+    transitions: Dict[str, Dict[str, Dict[str, Tuple[str, Union[Tuple[str, ...], str]]]]]
     initial_state: str
     initial_stack_symbol: str
     final_states: Set[str]
