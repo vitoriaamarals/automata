@@ -21,7 +21,7 @@
 
 ## :computer: EXEMPLOS DE TESTE EM JSON
 
-<p>DFA</p>
+### DFA
 <p>(Esse exemplo aceita qualquer string binária que termine com um número ímpar de 1's)</p>
 
 ```json
@@ -39,7 +39,7 @@
 }
 ```
 
-<p>MT</p>
+### MT
 <p>(Esse exemplo aceita strings que começam com 0 e terminam com a mesma quantidade de 1)</p>
 
 ```json
@@ -74,7 +74,7 @@
 }
 ```
 
-<p>PDA</p>
+### PDA
 <p>(Esse exemplo aceita strings que tem 0 ou mais a's seguido pela mesma quantidade de b's)</p>
 
 ```json
