@@ -9,7 +9,7 @@
    ```
    python -m venv venv
    venv\Scripts\activate
-   pip install -r fastapi uvicorn automata-lib
+   pip install fastapi uvicorn automata-lib
    ```
 3. Execute:
    ```
